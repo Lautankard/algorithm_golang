@@ -1,0 +1,1 @@
+/Users/jankin/Conf/VimProConfig/goConfig/
