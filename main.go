@@ -50,6 +50,26 @@ func test2() {
 	}
 }
 
+func RBTest() {
+	rbtree := tree.NewDefaultRBTree()
+	// arrInt := []int{5802, 7885, 9412, 4376, 667, 4362, 3069, 3535}
+	// for i := 0; i < len(arrInt); i++ {
+	// for i := 10; i > 0; i-- {
+	// //n := arrInt[i]
+	// n := i
+	// rbtree.InsertValue(n)
+	// fmt.Println("++++++++++++++++++++++++++")
+	// tree.RBTreeLevelTraverse(rbtree.Root)
+	// }
+	for i := 1; i < 8; i++ {
+		// n := arrInt[i]
+		n := i
+		rbtree.InsertValue(n)
+		fmt.Println("++++++++++++++++++++++++++")
+		tree.RBTreeLevelTraverse(rbtree.Root)
+	}
+}
+
 func main() {
-	test2()
+	RBTest()
 }
