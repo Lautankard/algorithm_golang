@@ -66,7 +66,7 @@ func RBTest() {
 		n := i
 		rbtree.InsertValue(n)
 		fmt.Println("++++++++++++++++++++++++++")
-		tree.RBTreeLevelTraverse(rbtree.Root)
+		rbtree.LevelTraverse()
 	}
 }
 
